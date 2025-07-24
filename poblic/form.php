@@ -8,18 +8,19 @@
 </head>
 <body>
     <div class="h-screen w-full  flex justify-center items-center overflow-y-scroll">
-        <form action="" class="h-[70%] rounded-2xl w-[40%] p-4 shadow-xl shadow-black border flex flex-col ">
-            <div class="flex flex-col ">
+        <form action="" class="h-[70%] rounded-2xl w-[40%] p-4 shadow-xl shadow-black border flex flex-col justify-between ">
+            <div class="">
                 <label for="" class="font-bold">ID</label>
-                <input type="number">
+
+                <input type="number" class="py-2 w-full border rounded-xl outline-0">
             </div>
-            <div class="flex flex-col border">
+            <div class="">
                 <label for="">NAME</label>
-                <input type="text" class="py-2 w-full border">
+                <input type="text" class="py-2 w-full border rounded-xl outline-0">
             </div>
-            <div class="flex flex-col border">
+            <div class="">
                 <label for="">PRODUCT</label>
-                <input type="text">
+                <input type="text" class="py-2 w-full border rounded-md outline-0">
             </div>
         </form>
     </div>
